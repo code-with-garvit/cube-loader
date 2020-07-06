@@ -1,3 +1,18 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background: radial-gradient(#121212, #000);
+	height: 100%;
+	color: #aaa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .cubeWrap {
 	perspective: 800px;
 	width: 300px;
@@ -141,17 +156,3 @@
 	}
 }
 
-html, body {
-	height: 100%;
-	margin: 0;
-}
-
-body {
-	font-family: 'Josefin Sans', sans-serif;
-	background: radial-gradient(#121212, #000);
-	height: 100%;
-	color: #aaa;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
